@@ -1,7 +1,7 @@
 # Soduku-Solver
 Constraint propagation with a Minimum Remaining Value heuristic depth first search in Python
 
-## Method
+### Method
 The algorithm combines constraint propagation with a Minimum Remaining Value heuristic depth first search. This algorithm is generally considered one of the most efficient methods for solving sudoku puzzles. The algorithm works as follows:
 
 Constraint propagation 
