@@ -19,7 +19,7 @@ If the constraint propagation loop gets stuck, DFS is employed starting with the
 a.	If the constraint propagation loop gets stuck, repeat search steps 1-4 for the next cell with the smallest domain size. If a contradiction was found, backtrack and try and the next possible number for the cell. 
 b.	If all the cells have only one number in their domains, return the solved sudoku as a numpy array.
 
-Motivations
+### Motivations
 
 The constraint propagation step massively reduces the search space. Logical cell assignments further reduce the domain size of its peers, resulting in some of those cells’ domains reducing to one number, causing those cells to get assigned to a value and so on. Search is only employed when no more logical deductions can be made. 
 
