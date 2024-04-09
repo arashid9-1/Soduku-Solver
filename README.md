@@ -28,5 +28,4 @@ Ordering cells via the Minimum Remaining Values heuristic decreases the probabil
 Additionally, I chose to use sets within dictionaries for the domains since sets are mutable and have a smaller time complexity, O(1) in Python relative to lists, O(n), when filtering through domains. Using immutable data structures would require using deepcopies of the domains for backtracking, using more memory space than the built-in python shallow copy method.
 
 Although I did not test this myself, consensus indicated that using iteration instead of recursion would not improve the algorithm’s performance.
-![image](https://github.com/arashid9-1/Soduku-Solver/assets/109870775/1af5c0e3-1be9-41b8-bcc2-3d742cc7b19f)
 
